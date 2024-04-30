@@ -1,0 +1,115 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Smack';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Smack'), url('/public/fonts/NotoSans-Bold.ttf') format('woff');
+  }
+
+@media only screen and (max-width: 991px) {
+  
+  #navbar-right{
+     display: block !important;
+     margin-top: '0' !important;
+  }
+  #setting_icon{
+    display:inline !important;
+    /* font-size: 25px !important; */
+  }
+  #setting_img{
+    display: none !important;
+  }
+  .switcher{
+    /* margin-top: 25px !important; */
+    display: none !important;
+  }
+  .signinBut{
+    /* margin-top: 20px !important; */
+    padding-top: 10px !important;
+  }
+  .walletinfo{
+    display: none;
+  }
+  
+}
+
+/* @media only screen and (max-width: 500px) {
+  .chatbot{
+     right: 10px !important;
+  }
+} */
+
+.sidebarLogo{
+  transform: rotateY(0deg) !important;
+  opacity: 1 !important;
+}
+.pcoded-menu-caption{
+  display: none;
+}
+/* ::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 5px;
+  opacity: 0.01;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(27,27,27);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+@font-face {
+  font-family: 'Genty Demo';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Genty Demo'), url('https://fonts.cdnfonts.com/s/59891/GentyDemo-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Evermore';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Evermore'), url('https://fonts.cdnfonts.com/s/96082/Evermore-WyDmO.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Exorcist';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Exorcist'), url('/public/fonts/Exorcist.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Smack';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Smack'), url('/public/fonts/NotoSans-Bold.ttf') format('woff');
+}
+
+@font-face {
+  font-family:'Mansalva';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Mansalva'), url('/public/fonts/Gudea-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Might';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Might'), url('/public/fonts/NotoSans-Bold.ttf') format('woff');
+}
